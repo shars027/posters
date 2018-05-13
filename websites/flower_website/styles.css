@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+	div#background1 {
+		width: 100%;
+		height: 100%;
+		background-color: #ffff80;
+	}
+
+	div#background2 {
+		width: 100%;
+		height: 100%;
+		background-color: #19194d;
+	}
+
+div.message {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+}
+
+	div.white {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: white;
+		opacity: .8;
+		z-index: -100;
+	}
+
+	div.directions {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		font-family: impact, sans-serif;
+		font-size: 20pt;
+		text-align: center;
+		top: 10vh;
+		z-index: 200;
+	}
+
+div#stems {
+	position: fixed;
+	z-index: 1;
+}
+
+	img.stem_img {
+		position: fixed;
+		width: 400px;
+		bottom: 190px;
+
+		left: calc(50% + 10px);
+		transform: translate(-50%, 0);
+	}
+
+div#vase {
+	position: fixed;
+	z-index: 99;
+}
+
+	img.vase_img {
+		position: fixed;
+		height: 205px;
+
+		bottom: 10px;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+div#bouquet {
+	position: absolute;
+	width: 400px;
+	height: calc(100% - 215px);
+
+	bottom: 205px;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+	/*background-color: limegreen;*/
+	z-index: 50;
+}
+
+	div.flower_1 {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+
+		bottom: 50px;
+		left: 80px;
+
+		/*background-color: red;*/
+	}
+
+	div.flower_2 {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+
+		bottom: 30px;
+		left: 210px;
+
+		/*background-color: orange;*/
+	}
+
+	div.flower_3 {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+
+		bottom: 160px;
+		left: 40px;
+
+		/*background-color: cyan;*/
+	}
+
+	div.flower_4 {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+
+		bottom: 140px;
+		left: 270px;
+
+		/*background-color: magenta;*/
+	}
+
+	div.flower_5 {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+
+		bottom: 180px;
+		left: 160px;
+
+		/*background-color: lavender;*/
+	}
+
+	div.flower_6 {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+
+		bottom: 290px;
+		left: 70px;
+
+		/*background-color: white;*/
+	}
+
+	div.flower_7 {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+
+		bottom: 300px;
+		left: 230px;
+
+		/*background-color: lightblue;*/
+	}
+
+img.all_flowers {
+	position: absolute;
+	width: 100%;
+	max-height: 100px;
+	/* max-height: 100px; */
+}

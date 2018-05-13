@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px; 
+  outline: none;
+  border: 0px;
+}
+
+body {
+	background-color: grey;
+}
+
+div.sec {
+	position: absolute;
+	display: inline-block;
+	width: calc(100vw / 5);
+	height: 100vh;
+	filter: grayscale(100%);
+	z-index: 1;
+}
+
+div.sec:hover {
+	filter: grayscale(0%);
+	z-index: 100;
+}
+
+				img {
+					position: absolute;
+				}
+
+	div.miley {
+		overflow: hidden;
+
+	}
+
+	img.miley:hover {
+		animation: spin 5s linear 0s infinite;
+		top: 25vh;
+	}
+
+		@keyframes spin {
+			    0%  { transform: rotate(0deg) scale(2); }
+			    100% { transform: rotate(360deg) scale(2); }
+		}
+
+	div.flowers {
+		left: calc(100vw / 5);
+	}
+
+	img.flowers:hover {
+		position: relative;
+		animation: downup 1s infinite;
+	}
+
+		@keyframes downup {
+			    0%  { top: 0; }
+			    50% { top: 25vh; }
+			    100% { top: 0; }
+		}
+
+	div.type {
+		left: calc(100vw / 5 * 2);
+	}
+
+	img.type:hover {
+		animation: resize 2s infinite;
+	}
+
+		@keyframes resize {
+				    0%  { height: 100vh; top: 0; transform: rotate(0deg);}
+				    50% { height: 100vw; top: -50vh; transform: rotate(90deg);}
+				    100% { height: 100vh; top: 0; transform: rotate(0deg);}
+		}
+
+	div.cult {
+		left: calc(100vw / 5 * 3);
+	}
+
+	img.cult:hover {
+		animation: inverts 2s infinite;
+	}
+
+		@keyframes inverts {
+				    0%  { filter: invert(0); }
+				    50% { filter: invert(1); }
+				    100% { filter: invert(0); }
+		}
+
+	div.rainbow {
+		left: calc(100vw / 5 * 4);
+		overflow: hidden;
+	}
+
+	img.rainbow:hover {
+		transform: rotate(90deg) scale(1.1);
+		height: 100vh;
+		width: 50vw;
+		left: -50vh;
+		top: 0vw;
+	}
+
+img {
+	width: 100%;
+}

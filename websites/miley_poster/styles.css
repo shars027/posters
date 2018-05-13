@@ -1,0 +1,183 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+div.message {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+	div.white {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: white;
+		opacity: .8;
+		z-index: -1;
+	}
+
+	div.directions {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		font-family: impact, sans-serif;
+		font-size: 20pt;
+		text-align: center;
+		top: 10vh;
+		z-index: 2;
+	}
+
+div.full_page {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+
+	background-color: rgb(250, 218, 235);	
+}
+
+	div.poster_box {
+		position: absolute;
+
+		height: 95vh;
+		width: 95vh;
+		max-width: 95vw;
+		max-height: 95vw;
+
+		top:0;bottom:0;left:0;right:0;
+		margin: auto;
+
+		background-color: white;
+		overflow: hidden;
+	}
+
+	img {
+		position: absolute;
+	}
+
+	img.full_miley {
+		height: 96vh;
+		max-height: 96vw;
+	}
+
+		img.miley_1 {
+			left: calc(7.56 / 28.44 * 100%);
+			top: calc(6.14 / 28.44 * 100%);
+
+			height: calc(3.42 / 28.44 * 96vh);
+			max-height: calc(3.42 / 28.44 * 96vw);
+		}
+
+		img.miley_2 {
+			left: calc(20.49 / 28.44 * 100%);
+			top: calc(16.08 / 28.44 * 100%);
+
+			height: calc(3.75 / 28.44 * 96vh);
+			max-height: calc(3.75 / 28.44 * 96vw);
+		}
+
+		img.miley_3 {
+			left: calc(8.93 / 28.44 * 100%);
+			top: calc(24.65 / 28.44 * 100%);
+
+			height: calc(3.72 / 28.44 * 96vh);
+			max-height: calc(3.72 / 28.44 * 96vw);
+		}
+
+		img.miley_4 {
+			left: calc(6.4 / 28.44 * 100%);
+			top: calc(10.4 / 28.44 * 100%);
+
+			height: calc(8.65 / 28.44 * 96vh);
+			max-height: calc(8.65 / 28.44 * 96vw);
+		}
+
+		img.miley_5 {
+			left: calc(5.49 / 28.44 * 100%);
+			top: calc(1.68 / 28.44 * 100%);
+
+			height: calc(4.68 / 28.44 * 96vh);
+			max-height: calc(4.68 / 28.44 * 96vw);
+		}
+
+		img.miley_6 {
+			left: calc(16.57 / 28.44 * 100%);
+			top: calc(5.31 / 28.44 * 100%);
+
+			height: calc(7.44 / 28.44 * 96vh);
+			max-height: calc(7.44 / 28.44 * 96vw);
+		}
+
+		img.miley_7 {
+			left: calc(12.35 / 28.44 * 100%);
+			top: calc(5.54 / 28.44 * 100%);
+
+			height: calc(4.33 / 28.44 * 96vh);
+			max-height: calc(4.33 / 28.44 * 96vw);
+			
+		}
+
+		img.miley_8 {
+			left: calc(11.92 / 28.44 * 100%);
+			top: calc(17.97 / 28.44 * 100%);
+
+			height: calc(6.97 / 28.44 * 96vh);
+			max-height: calc(6.97 / 28.44 * 96vw);
+		}
+
+		img.miley_9 {
+			left: calc(3.04 / 28.44 * 100%);
+			top: calc(15.36 / 28.44 * 100%);
+
+			height: calc(3.83 / 28.44 * 96vh);
+			max-height: calc(3.83 / 28.44 * 96vw);
+		}
+
+		img.miley_10 {
+			left: calc(13.31 / 28.44 * 100%);
+			top: calc(24.11 / 28.44 * 100%);
+
+			height: calc(0 / 28.44 * 96vh);
+			max-height: calc(4.96 / 28.44 * 96vw);
+		}
+
+		img.miley_11 {
+			left: calc(22.21 / 28.44 * 100%);
+			top: calc(24.11 / 28.44 * 100%);
+
+			height: calc(4.24 / 28.44 * 96vh);
+			max-height: calc(4.24 / 28.44 * 96vw);
+		}
+
+		img.miley_12 {
+			left: calc(24.65 / 28.44 * 100%);
+			top: calc(13.74 / 28.44 * 100%);
+
+			height: calc(3.14 / 28.44 * 96vh);
+			max-height: calc(3.14 / 28.44 * 96vw);
+		}
+
+		img.miley_13 {
+			left: calc(1.17 / 28.44 * 100%);
+			top: calc(7.74 / 28.44 * 100%);
+
+			height: calc(6.35 / 28.44 * 96vh);
+			max-height: calc(6.35 / 28.44 * 96vw);
+		}
+
+	.spin {
+	    animation: spin 5s linear 0s infinite;
+		animation-play-state: paused;
+		z-index: 1;
+	}
+
+		.spin:hover {
+		    animation: spin 5s linear 0s infinite;
+		}
+
+			@keyframes spin {
+			    0%  { transform: rotate(0deg); }
+			    100% { transform: rotate(360deg); }
+			}

@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+div.message {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+	div.white {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: white;
+		opacity: .8;
+		z-index: -1;
+	}
+
+	div.directions {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		font-family: impact, sans-serif;
+		font-size: 20pt;
+		text-align: center;
+		top: 10vh;
+		z-index: 2;
+	}
+
+div.rainbow {
+	position: fixed;
+	overflow: scroll;
+}
+
+	div::-webkit-scrollbar {
+	    display: none;
+	}
+
+	div.red {
+		width: calc(100% / 6);
+		height: 100%;
+		background-color: red;
+	}
+
+		.red_grad {
+			width: 100%;
+			height: 1000%;
+			background: linear-gradient(to bottom, red, #ffb3b3);
+		}
+
+	div.orange {
+		width: calc(100% / 6);
+		height: 100%;
+		left: calc(100% / 6);
+		background-color: #ff6600;
+	}
+
+		.orange_grad {
+			width: 100%;
+			height: 1000%;
+			background: linear-gradient(to bottom, #ff6600, #ffd9b3);
+		}
+
+	div.yellow {
+		width: calc(100% / 6);
+		height: 100%;
+		left: calc(100% / 6 * 2);
+		background-color: yellow;
+	}
+
+		.yellow_grad {
+			width: 100%;
+			height: 1000%;
+			background: linear-gradient(to bottom, yellow, #ffffb3);
+		}
+
+	div.green {
+		width: calc(100% / 6);
+		height: 100%;
+		left: calc(100% / 6 * 3);
+		background-color: lime;
+	}
+
+		.green_grad {
+			width: 100%;
+			height: 1000%;
+			background: linear-gradient(to bottom, lime, #99ff99);
+		}
+
+	div.blue {
+		width: calc(100% / 6);
+		height: 100%;
+		left: calc(100% / 6 * 4);
+		background-color: blue;
+	}
+
+		.blue_grad {
+			width: 100%;
+			height: 1000%;
+			background: linear-gradient(to bottom, blue, #b3ffff);
+		}
+
+	div.purple {
+		width: calc(100% / 6);
+		height: 100%;
+		left: calc(100% / 6 * 5);
+		background-color: #9900ff;
+	}
+
+		.purple_grad {
+			width: 100%;
+			height: 1000%;
+			background: linear-gradient(to bottom, #9900ff, #f5e6ff);
+		}
